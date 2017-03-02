@@ -1,0 +1,8 @@
+version: '2'
+
+services: 
+    webserver:
+        image: arch_pkg_compare_webserver
+        volumes:
+            - ./data/packageStatistics.json:/root/server/packageStatistics.json
+            - ./data/ArchPackageCompareStats/templates:/root/server/templates/

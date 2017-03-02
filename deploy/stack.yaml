@@ -1,0 +1,14 @@
+resolver: lts-8.2
+packages:
+- location:
+    git: https://github.com/chrissound/ArchPackageCompareStats.git
+    commit: 91acd9bbd864c0b5449ca5a2d065678c34ca9af4
+- location:
+    git: https://github.com/chrissound/ArchLinuxPkgStatsScraper.git
+    commit: HEAD
+extra-deps:
+  - heist-1.0.1.0
+  - map-syntax-0.2.0.2
+  - mustache-2.1.2
+flags: {}
+extra-package-dbs: []
