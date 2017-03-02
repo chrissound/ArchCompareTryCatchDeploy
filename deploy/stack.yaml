@@ -2,7 +2,7 @@ resolver: lts-8.2
 packages:
 - location:
     git: https://github.com/chrissound/ArchPackageCompareStats.git
-    commit: 91acd9bbd864c0b5449ca5a2d065678c34ca9af4
+    commit: c34b7dc5f08df92c6b6fb0cab0ac1d5b6b7568d4
 - location:
     git: https://github.com/chrissound/ArchLinuxPkgStatsScraper.git
     commit: HEAD
