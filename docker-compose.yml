@@ -5,7 +5,7 @@ services:
         container_name: archpkgcompare_webserver
         image: arch_pkg_compare_webserver
         volumes:
-            - ./data/packageStatistics.json:/root/server/packageStatistics.json
+            - ./deploy2/packageStatistics.json:/root/server/packageStatistics.json
             - ./data/ArchPackageCompareStats/templates:/root/server/templates/
         networks:
           - archpkgcompare_webserver_default
