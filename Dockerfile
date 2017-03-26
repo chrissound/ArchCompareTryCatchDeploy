@@ -20,4 +20,4 @@ WORKDIR /root/server
 COPY deploy .
 RUN stack install --local-bin-path /root/server/ ArchPackageCompareStats
 RUN stack install -v ArchPackageCompareStats
-ENTRYPOINT webserver "/compare/package"
+ENTRYPOINT webserver "/archpackagecompare/"

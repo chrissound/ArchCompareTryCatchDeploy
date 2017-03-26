@@ -11,4 +11,4 @@ fi
 
 sudo docker network prune
 sudo docker network create archpkgcompare_webserver_default
-sudo docker-compose up
+sudo docker-compose up -d
